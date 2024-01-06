@@ -1,0 +1,33 @@
+/* Estilo para o body (fundo) */
+body {
+    background-color: #e9e9e9; /* Cor de fundo da página */
+}
+
+/* Estilo para o formulário */
+.form-label {
+    font-weight: bold;
+    /* Outros estilos que desejar */
+}
+
+.form-control {
+    margin-bottom: 15px;
+    /* Outros estilos que desejar */
+}
+
+.btn-primary {
+    margin-top: 10px;
+    /* Outros estilos que desejar */
+}
+
+/* Estilo para o container */
+.container-lg {
+    background-color: #f7f7f7; /* Cor de fundo do container */
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 50px; /* Espaçamento do topo */
+}
+
+.col-md-8{
+    margin-top: 15px;
+}
+

@@ -1,0 +1,77 @@
+/* Estilos personalizados */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Cor de fundo */
+  }
+
+  h1, h2{
+    color: #69be3a;
+  }
+
+  .text-center{
+    margin: 25px;
+  }
+  
+  
+  /* Estilos para o card */
+  .custom-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo do card */
+  }
+  
+/* Cores de tons de pele */
+.btn-pele-claro,
+.btn-pele-media-claro,
+.btn-pele-media,
+.btn-pele-media-escuro,
+.btn-pele-escuro,
+.btn-pele-muito-escuro {
+  color: #fff; /* Alteração para o texto ser branco */
+}
+
+/* Manter a mesma cor de fundo ao passar o mouse */
+.btn-pele-claro:hover,
+.btn-pele-media-claro:hover,
+.btn-pele-media:hover,
+.btn-pele-media-escuro:hover,
+.btn-pele-escuro:hover,
+.btn-pele-muito-escuro:hover {
+  background-color: #69be3a; /* Cor ao passar o mouse */
+}
+  
+/* Botões com diferentes tons de pele */
+.btn-pele-claro {
+    background-color: #f8d7da; /* Cor de tom de pele claro */
+  }
+  
+  .btn-pele-media-claro {
+    background-color: #e9c9b1; /* Cor de tom de pele médio-claro */
+  }
+  
+  .btn-pele-media {
+    background-color: #d8a993; /* Cor de tom de pele médio */
+  }
+  
+  .btn-pele-media-escuro {
+    background-color: #c78a75; /* Cor de tom de pele médio-escuro */
+  }
+  
+  .btn-pele-escuro {
+    background-color: #b36b58; /* Cor de tom de pele escuro */
+  }
+  
+  .btn-pele-muito-escuro {
+    background-color: #2F2818; /* Exemplo de um tom de pele muito escuro */
+  }
+  
+  
+  /* Ajuste para o espaçamento vertical entre os botões */
+  .btn {
+    margin-bottom: 10px;
+  }
+  

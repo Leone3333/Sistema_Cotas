@@ -1,0 +1,36 @@
+* {
+    margin:  0;
+}
+
+h1, h2{
+  color: #69be3a;
+}
+
+.card-title{
+  color: #fbbf00;
+}
+
+.titulo{
+    display: flex;
+    margin: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo2{
+  display: flex;
+  margin: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container-fluid {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 10px;
+  }
