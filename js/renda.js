@@ -10,13 +10,13 @@ function calculoRendaPerCapita() {
 
     rendaPerCapita = rendaFamilia / qttFamilia;
 
-    if (rendaPerCapita >= 1412) {
-        let mensagem = "Renda por capita: " +  rendaPerCapita.toFixed(1) + " Você não tem direito a cota";
-        alert(mensagem);
+    if (rendaPerCapita < 1412) {
+        let mensagemSucesso = "Renda por capita: " +  rendaPerCapita.toFixed(1) + " Você tem direito a cota";
+        alert(mensagemSucesso);
         
     } else {
-        let mensagem = "Renda por capita: " +  rendaPerCapita.toFixed(1) + " Você tem direito a cota";
-        alert(mensagem);
+        let mensagemNegado = "Renda por capita: " +  rendaPerCapita.toFixed(1) + " Você não tem direito a cota";
+        alert(mensagemNegado);
  
     }
 
